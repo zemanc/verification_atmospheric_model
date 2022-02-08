@@ -11,8 +11,8 @@ from Christian Zeman and Christoph Schär.
 mwu_gpu_cp_sp_diff.py:
 Calculate rejection rates using the Mann-Whitney U test on a grid-cell
 level for ensembles that have been produced with COSMO GPU DP, COSMO CPU DP,
-COSMO GPU SP, and COSMO GPU DP DIFF. This version runs in parallel with
-one task for each variable.
+COSMO GPU SP, and COSMO GPU DP DIFF. This version runs in parallel on a
+specified amount of cores (nprocs).
 
 mwu_ks_studt.py:
 Calculate rejection rates using different local statistical tests on
@@ -23,6 +23,11 @@ mwu_update.py:
 Calculate rejection rates using the Mann-Whitney U test on a grid-cell
 level for ensembles that have been produced with COSMO before and after
 a major system update of the underlying supercomputer.
+
+fdr_test.py:
+Calculate rejection rates using the Student's t-test where the approach in the
+paper using subsampling is compared to the FDR approach for determining
+field significance.
 
 mannwhitneyu.cpp:
 C++ implementation of the Mann-Whitney U test on a grid-cell level.

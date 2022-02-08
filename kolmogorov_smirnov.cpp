@@ -19,7 +19,7 @@
  * import kolmogorov_smirnov as ks
  * below = ks.ks(values_a, values_b, n_bins)
  *
- * Copyright (c) 2021 ETH Zurich, Christian Zeman
+ * Copyright (c) 2022 ETH Zurich, Christian Zeman
  * MIT License
  *
  ******************************************************************************/

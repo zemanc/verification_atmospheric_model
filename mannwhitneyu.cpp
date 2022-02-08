@@ -13,7 +13,7 @@
  * import mannwhitneyu as mwu
  * below = mwu.mwu(values_a, values_b, u_crit)
  *
- * Copyright (c) 2021 ETH Zurich, Christian Zeman
+ * Copyright (c) 2022 ETH Zurich, Christian Zeman
  * MIT License
  *
  ******************************************************************************/
