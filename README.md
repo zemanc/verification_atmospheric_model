@@ -1,12 +1,9 @@
 # Source code for verification of numerical weather and climate model executables
 
-Source code for "An Ensemble-Based Statistical Methodology to Detect Differences
-in Weather and Climate Model Executables"
-
 The files here contain the source coude that has been used to calculate some
 of the rejection rates presented in the paper "An Ensemble-Based Statistical
 Methodology to Detect Differences in Weather and Climate Model Executables"
-from Christian Zeman and Christoph Schär.
+from Christian Zeman and Christoph Schär in Geoscientific Model Development (https://doi.org/10.5194/gmd-2021-248).
 
 mwu_gpu_cp_sp_diff.py:
 Calculate rejection rates using the Mann-Whitney U test on a grid-cell
@@ -35,5 +32,6 @@ C++ implementation of the Mann-Whitney U test on a grid-cell level.
 kolmogorov-smirnov.cpp:
 C++ implementation of the Kolmogorov-Smirnov test on a grid-cell level.
 
-The corresponding data is available under
-https://doi.org/10.5281/zenodo.5106467
+The corresponding data is available in Zenodo.
+First part: https://doi.org/10.5281/zenodo.6354200
+Second part: https://doi.org/10.5281/zenodo.6355647
