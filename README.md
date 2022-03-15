@@ -33,5 +33,13 @@ kolmogorov-smirnov.cpp:
 C++ implementation of the Kolmogorov-Smirnov test on a grid-cell level.
 
 The corresponding data is available in Zenodo.
+
 First part: https://doi.org/10.5281/zenodo.6354200
+
 Second part: https://doi.org/10.5281/zenodo.6355647
+
+The latest release can be found here: 
+
+[![DOI](https://zenodo.org/badge/386663542.svg)](https://zenodo.org/badge/latestdoi/386663542)
+
+
